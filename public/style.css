@@ -1,0 +1,121 @@
+body{
+    background-color: #1B091B;
+    color: #E4C9AF;
+    font-size: 20px;
+}
+
+#prod{
+    width: 120px;
+    height: 120px;
+    float: left;
+    background-color: #163441;
+    margin: 3px;
+    border: 2px solid #E4C9AF;
+    border-radius: 25px;
+}
+
+#status{
+    margin-top: 100px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#name{
+    text-align: center;
+    height: 60px;
+    padding-top: 30px;
+    color: #E4C9AF;
+}
+
+#price{
+    text-align: center;
+    height: 60px;
+    color: #E4C9AF;
+    
+}
+
+#zegar{
+font-size: 30px;
+float: right;
+}
+
+#info{
+height: 30px;
+}
+
+.but{
+    text-decoration: none;
+    text-align: center;
+    color: #1B091B;
+    border: 2px solid #E4C9AF;
+    border-radius: 4px;
+    width: 150px;
+    line-height: 40px;
+    display: inline-block;
+    font-family: Arial;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.inp{
+    color: #1B091B;
+    border: 2px solid #E4C9AF;
+    border-radius: 4px;
+    width: 150px;
+    line-height: 40px;
+    display: inline-block;
+    font-family: Arial;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+#x{
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: absolute;
+    margin-left: 70px;
+    color: red;
+    cursor: pointer;
+    
+}
+
+table.tabela {
+    display: none;
+    border: 4px solid;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+table.tabela2 {
+    display: none;
+    border: 4px solid;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+.nag{
+    background-color: #E4C9AF;
+    color: #1B091B;
+    text-align: center;
+    font-size: 25px;
+}
+
+#ukryty_wstecz{
+    display: none;
+}
+
+#ukryte_sortowanie{
+    display: none;
+    margin-left: 20px;
+}
+
+span#wykaz{
+/*cały środek*/
+}
+
+#przyciski{
+    display: block;
+    margin: 0 auto;
+}
